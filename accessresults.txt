@@ -1,0 +1,42 @@
+[2026-04-28T15:59:14.456Z]
+Name: Mbekezeli
+Password: *******
+ID: 99050451423089
+Status: Access Denied Invalid Data
+Details: Mbekezeli, *******, 99050451423089
+============================================================
+[2026-04-28T16:00:18.773Z]
+Name: Mbekezeli Sifundo Dube
+Password: *******
+ID: 9905045143089
+Status: Access Denied Invalid Data
+Details: Mbekezeli Sifundo Dube, *******, 9905045143089
+============================================================
+[2026-04-28T16:02:12.031Z]
+Name: Mbekezeli
+Password: ************
+ID: 99050451423089
+Status: Access Denied Invalid Data
+Details: Mbekezeli, ************, 99050451423089
+============================================================
+[2026-04-28T16:03:02.343Z]
+Name: Mbekezeli
+Password: **********
+ID: 9905045142308
+Status: Access Denied Invalid Data
+Details: Mbekezeli, **********, 9905045142308
+============================================================
+[2026-04-28T16:04:34.443Z]
+Name: Cebo
+Password: **********
+ID: 050414585008
+Status: Successful
+Details: Cebo, **********, 050414585008
+============================================================
+[2026-04-28T16:13:24.257Z]
+Name: Cebo
+Password: ***********
+ID: 050414585008
+Status: Successful
+Details: Cebo, ***********, 050414585008
+============================================================

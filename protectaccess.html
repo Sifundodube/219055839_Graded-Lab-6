@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Validation System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            width: 350px;
+        }
+        
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        
+        fieldset {
+            border: 2px solid #667eea;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        
+        legend {
+            font-weight: bold;
+            color: #667eea;
+            padding: 0 10px;
+        }
+        
+        input[type="text"], input[type="password"] {
+            width: 95%;
+            padding: 10px;
+            margin: 8px 0 15px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        
+        input[type="submit"] {
+            width: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        input[type="submit"]:hover {
+            transform: scale(1.02);
+        }
+        
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        
+        .success {
+            color: green;
+            border: 1px solid green;
+            background: #e8f5e9;
+        }
+        
+        .error {
+            color: red;
+            border: 1px solid red;
+            background: #ffebee;
+        }
+        
+        .details {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Validation System</h2>
+        <form action="/protectaccess" method="post">
+            <fieldset>
+                <legend>User Registration</legend>
+                <input type="text" name="name" placeholder="Enter your name" required>
+                Name<br/>
+                <input type="password" name="pw" placeholder="Enter password" required>
+                Password<br/>
+                <input type="text" name="IDnumber" placeholder="Enter ID number" required>
+                ID number<br/>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>``

@@ -1,0 +1,25 @@
+{
+  "name": "registration-validation-system",
+  "version": "1.0.0",
+  "description": "Node.js registration validation system for Gauteng Department of Justice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.5",
+    "express": "^4.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "validation",
+    "registration",
+    "security",
+    "nodejs"
+  ],
+  "author": "Cybersecurity Engineer",
+  "license": "ISC"
+}
